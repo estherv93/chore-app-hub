@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @chore_list.title %>
+</p>
+
+<div id="chore_items_wrapper">
+    <%= render @chore_list.chore_items %>
+<div id="form">
+    <%= render "chore_items/form" %>
+    </div>
+</div>
+
+<%= link_to 'Edit', edit_chore_list_path(@chore_list) %> |
+<%= link_to 'Back', chore_lists_path %>

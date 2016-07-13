@@ -1,0 +1,4 @@
+<%= form_for([@chore_list, @chore_list.chore_items.build]) do |f| %>
+    <%= f.text_field :content, placeholder: "Add Chore" %>
+    <%= f.submit "Add" %>
+<% end %>

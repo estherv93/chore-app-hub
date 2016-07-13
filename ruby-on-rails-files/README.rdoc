@@ -1,0 +1,9 @@
+The official home for the Chore App!
+
+Important Dates
+
+2016-07-02 --- First meeting to discuss possible projects.
+
+2016-07-03 --- Meeting to discuss research. 
+
+2016-07-06 --- The Chore App GitHub respository created.
