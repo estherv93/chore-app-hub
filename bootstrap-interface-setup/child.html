@@ -47,7 +47,92 @@
     </nav>
 
     <div class="container">
-        
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/avatar.jpg" class="pull-left">
+                <p>Josh Titor</p>
+            </div>
+
+            <div class="col-md-4">
+                <div class="kids-rewards">
+                    <a href="krewards.html" target="_blank" class="btn btn-success">
+                        <i class="fa fa-star-o" aria-hidden="true"></i> View Rewards
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p>
+                    <a href="">
+                        Settings <i class="fa fa-cogs" aria-hidden="true"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Today's Chores</h2>
+                <ul>
+                    <li class="row">
+                        <div class="col-md-8">
+                            <input type="checkbox"> Clean Room</div>
+                        <div class="col-md-4"><a href="krewards.html" class="btn btn-success" data-toggle="modal" data-target="#markCompleted">Mark as Completed</a></div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-md-8">
+                            <input type="checkbox"> Sweep Living Room</div>
+                        <div class="col-md-4"><a href="krewards.html" class="btn btn-success" data-toggle="modal" data-target="#markCompleted">Mark as Completed</a></div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-md-8">
+                            <input type="checkbox"> Clean Bathroom (Upstairs)</div>
+                        <div class="col-md-4"><a href="krewards.html" class="btn btn-success" data-toggle="modal" data-target="#markCompleted">Mark as Completed</a></div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-md-8">
+                            <input type="checkbox"> Mow lawn</div>
+                        <div class="col-md-4"><a href="krewards.html" class="btn btn-success" data-toggle="modal" data-target="#markCompleted">Mark as Completed</a></div>
+                    </li>
+                </ul>
+                <div class="modal fade" id="markCompleted" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Chore Completed</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label>Upload an Image</label>
+                                        <input type="file">
+                                        <p class="help-block">Upload an image of the completed chore.</p>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upload Image -->
+        <!-- Ask Questions/Comment -->
+        <!-- Submit Button -->
+
     </div>
 
     <!-- Bootstrap core JavaScript
